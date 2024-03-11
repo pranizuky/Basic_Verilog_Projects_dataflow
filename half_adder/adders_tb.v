@@ -4,7 +4,7 @@ module halfadder_tb();
 reg x,y; 
 wire s,c;
  integer i;
-halfadder dut(x,y,s,c);
+ halfadder dut(x,y,s,c); //for arbitrary variables not in main module ,referencing not required
  initial
 begin
 {x,y}=2'b00;
